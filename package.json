@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "ultimate-vue-template",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "cross-env NODE_ENV=production vite-ssg build",
+    "preview": "vite preview",
+    "preview-https": "serve dist"
+  },
+  "dependencies": {
+    "@vueuse/core": "^5.2.0",
+    "@vueuse/head": "^0.6.0",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.1.5",
+    "@vue/server-renderer": "^3.1.5",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.3",
+    "vite-plugin-components": "^0.13.2",
+    "vite-plugin-pages": "^0.15.1",
+    "vite-plugin-vue-layouts": "^0.3.1",
+    "vite-plugin-windicss": "^1.2.5",
+    "vite-ssg": "^0.12.0",
+    "windicss": "^3.1.5"
+  }
+}

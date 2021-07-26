@@ -1,0 +1,6 @@
+{
+    "vetur.completion.tagCasing": "initial",
+    "vetur.grammar.customBlocks": {
+        "route": "json"
+    }
+}
